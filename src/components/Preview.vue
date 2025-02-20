@@ -1,5 +1,6 @@
 <script setup>
 import { defineProps } from 'vue';
+import { useRouter } from 'vue-router';
 
 // Definiere die Props für das Bild und den Text
 const props = defineProps({
@@ -20,10 +21,17 @@ const props = defineProps({
     required: true
   }
 });
+
+const router = useRouter();
+
+const navigate = () => {
+  // Navigiere zu der URL, die in linkUrl übergeben wurde
+  router.push(props.linkUrl);
+};
 </script>
 
 <template>
-  <div @click="() => window.location.href = props.linkUrl" style="cursor: pointer; display: flex; align-items: center; gap: 10px;">
+  <div @click="navigate" style="cursor: pointer; display: flex; align-items: center; gap: 10px;">
     <!-- Das Bild -->
     <img
       :src="props.imageSrc"
@@ -31,7 +39,7 @@ const props = defineProps({
       style="width: 100px; height: auto; border-radius: 8px;"
     />
     <!-- Der Text -->
-    <span style="font-size: 16px; color: blue; text-decoration: underline;">
+    <span class="bold" style="font-size: 25px; color: blue; text-decoration: underline; font-weight: bold">
       {{ props.linkText }}
     </span>
   </div>

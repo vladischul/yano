@@ -19,7 +19,7 @@ const goToArticle = () => {
     <Preview
     imageSrc="../../assets/Bilder/afdSiegtBeiWahl.jpg"
     altText="Artikel Bild"
-    linkText="Klicke hier, um den Artikel zu lesen!"
+    linkText="AfD überrascht mit 26% in der Bundestagswahl – Ein unerwarteter Erfolg"
     linkUrl="/article"
     />
 
