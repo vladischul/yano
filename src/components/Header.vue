@@ -23,13 +23,15 @@ const goToMain = () => {
         YANO
       </button>
 
-      <span class="navbar-brand mb-0 h1 mx-auto">
-        <h1>
-          {{ route.name === "Main" ? "Yet Another News Outlet" : route.name }}
+      <div class="navbar-brand mx-auto text-center title-break">
+        <h1 class="h1 text-truncate" style="max-width: 100%;">
+          {{ route.name === "Main" ? "Yet Another News Outlet" : title }}
         </h1>
-      </span>
+      </div>
 
-      <button @click="" class="btn btn-secondary">Login</button>
+      <button @click="goToLogin" class="btn btn-secondary">
+        Login
+      </button>
     </div>
   </nav>
 </template>

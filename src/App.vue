@@ -1,12 +1,6 @@
 <script setup>
 import { RouterView, useRoute } from 'vue-router';
 
-defineProps({
-  parties: {
-    type: Object,
-    required: true
-  }
-});
 
 const route = useRoute();
 </script>

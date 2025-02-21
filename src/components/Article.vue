@@ -1,5 +1,6 @@
 <script setup>
 import { ref, onMounted } from 'vue';
+import { useRoute } from 'vue-router';
 import axios from 'axios';  // Wir nutzen Axios, um das JSON-Dokument zu laden
 import Header from './Header.vue';
 
@@ -7,23 +8,29 @@ import Header from './Header.vue';
 const article = ref(null);
 
 // Die JSON-Datei, die du laden möchtest (beispielsweise `article.json`)
-const articleUrl = './assets/article.json'; // Oder die URL, wenn von einem Server geladen
+const articleUrl = '/article.json'; // Oder die URL, wenn von einem Server geladen
+
+const route = useRoute();
+const articleID = route.params.id;
+console.log(articleID);
 
 // Lade die JSON-Datei, wenn die Komponente gemountet wird
 onMounted(async () => {
   try {
     const response = await axios.get(articleUrl);  // Holt die JSON-Datei
-    article.value = response.data;  // Speichert die geladenen Daten in der reaktiven Variable
+    //console.log(response.data);
+    article.value = response.data.find(a => a.id == articleID) || {};  // Speichert die geladenen Daten in der reaktiven Variable
+    console.log(article.value)
   } catch (error) {
     console.error("Fehler beim Laden der JSON-Datei:", error);
   }
 });
+
 </script>
 
 <template>
-    <Header :title="title"></Header>
     <div v-if="article" class="news-article">
-        <h1>{{ article.title }}</h1>
+      <Header :title="article?.title || 'Lädt...'"></Header>
         <p><em>{{ article.date }}</em></p>
 
         <!-- Dynamisches Rendern der Artikelabschnitte -->
