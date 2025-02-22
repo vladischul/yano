@@ -28,17 +28,31 @@ const title = "Hauptseite";
 
   <!-- Artikelvorschau -->
   <div class="container-fluid" v-if="articles.length > 0">
+    <!-- Left Advertisement Column (col-2) -->
     <div class="row">
-      
+      <div class="col-2">
+        <div class="advertisement">
+          <p>Left Advertisement</p>
+        </div>
+      </div>
+    <div class="col-8">
+      <div class="row">
+        <div v-for="article in articles" :key="article.id" class="col-4 align-items-center">
+          <Preview
+            :imageSrc="article.imageSrc || 'Kein Bild verfügbar'"
+            :altText="article.title || 'Kein Titel verfügbar'"
+            :linkText="article.title || 'Kein Titel verfügbar'"
+            :linkUrl="`/article/${article.id}`"
+            :timeOfCreation="article.timeOfCreation"
+          />
+        </div>
+      </div>
     </div>
-    <div class="row">
-      <div v-for="article in articles" :key="article.id" class="col-4 align-items-center">
-        <Preview
-          :imageSrc="article.imageSrc || 'Kein Bild verfügbar'"
-          :altText="article.title || 'Kein Titel verfügbar'"
-          :linkText="article.title || 'Kein Titel verfügbar'"
-          :linkUrl="`/article/${article.id}`"
-        />
+    <!-- Left Advertisement Column (col-2) -->
+    <div class="col-2">
+        <div class="advertisement">
+          <p>Right Advertisement</p>
+        </div>
       </div>
     </div>
   </div>

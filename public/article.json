@@ -6,6 +6,7 @@
     "date": "Berlin, 20. Februar 2025",
     "imageSrc": "/assets/Bilder/afdSiegtBeiWahl.webp",
     "contentType": ["innenpolitik", "politik"], 
+    "timeOfCreation": "2025-02-22 8:12:33",
     "content": [
       {
         "sectionTitle": "Ein bemerkenswerter Aufstieg",
@@ -36,6 +37,7 @@
     "date": "Washington D.C., 1. März 2025",
     "imageSrc": "/assets/Bilder/trump01.jpg",
     "contentType": ["aussenpolitik", "politik"],  
+    "timeOfCreation": "2025-02-20 16:15:45", 
     "content": [
       {
         "sectionTitle": "Trump schlägt historischen Friedensplan vor",
@@ -68,7 +70,8 @@
     "title": "Künstliche Intelligenz revolutioniert den Arbeitsmarkt – Chancen und Risiken",
     "url": "kiarbeitsmarkt",
     "date": "Berlin, 22. Februar 2025",
-    "imageSrc": "/assets/Bilder/KI.webp",
+    "imageSrc": "/assets/Bilder/KI.webp", 
+    "timeOfCreation": "2025-02-22 10:12:33",
     "content": [
       {
         "sectionTitle": "Der Aufstieg der Künstlichen Intelligenz",
@@ -96,66 +99,82 @@
     "id": 4,
     "title": "Neue Klimaabkommen zwischen den USA und China – Hoffnung auf globalen Durchbruch",
     "url": "klimaabkommen",
-    "date": "Peking, 10. März 2025",
-    "imageSrc": "/assets/Bilder/usa_china_klima.jpg",
+    "date": "Washington DC, 10. März 2025",
+    "imageSrc": "/assets/Bilder/xi.webp", 
+    "timeOfCreation": "2025-02-21 13:12:05",
     "content": [
       {
         "sectionTitle": "Ein historisches Abkommen",
-        "text": "In einer gemeinsamen Erklärung haben die USA und China ein neues Klimaabkommen unterzeichnet, das als historischer Durchbruch gilt. Beide Länder, die zusammen für einen erheblichen Teil der globalen CO2-Emissionen verantwortlich sind, haben sich verpflichtet, die Emissionen bis 2030 drastisch zu senken. Das Abkommen umfasst auch Maßnahmen zur Förderung erneuerbarer Energien und zur Förderung grüner Technologien."
+        "text": "In einer gemeinsamen Erklärung haben die USA und China ein neues Klimaabkommen unterzeichnet, das als historischer Durchbruch gilt. Beide Länder, die zusammen fast 40 % der globalen CO2-Emissionen ausstoßen, haben sich verpflichtet, ihre Emissionen bis 2030 drastisch zu reduzieren. Das Abkommen umfasst Maßnahmen zur Förderung erneuerbarer Energien, zur Entwicklung neuer umweltfreundlicher Technologien und zur engeren wissenschaftlichen Zusammenarbeit im Bereich des Klimaschutzes. Experten bezeichnen die Einigung als einen entscheidenden Schritt zur Einhaltung des 1,5-Grad-Ziels des Pariser Abkommens."
       },
       {
         "sectionTitle": "Die Rolle der USA in der Klimapolitik",
-        "text": "US-Präsident Joe Biden erklärte: 'Dieser Vertrag ist ein klarer Schritt in Richtung einer grüneren Zukunft. Wir werden uns stärker auf erneuerbare Energien konzentrieren und die Nutzung fossiler Brennstoffe drastisch reduzieren.' Die USA haben sich verpflichtet, bis 2030 ihre Emissionen um 50% zu senken und in den nächsten fünf Jahren insgesamt 1,5 Billionen Dollar in grüne Technologie zu investieren."
+        "text": "US-Präsident Joe Biden erklärte: 'Dieser Vertrag ist ein klarer Schritt in Richtung einer grüneren Zukunft. Wir werden uns stärker auf erneuerbare Energien konzentrieren und die Nutzung fossiler Brennstoffe drastisch reduzieren.' Die USA haben sich verpflichtet, ihre Emissionen bis 2030 um 50 % im Vergleich zu 2005 zu senken. Um dieses Ziel zu erreichen, plant die US-Regierung Investitionen von insgesamt 1,5 Billionen Dollar in grüne Technologien. Dies umfasst den Ausbau von Wind- und Solarenergie, die Förderung von Elektrofahrzeugen sowie die Einführung neuer Umweltvorschriften für Industriebetriebe."
       },
       {
         "sectionTitle": "Chinas Engagement für den Klimaschutz",
-        "text": "Auch China hat im Rahmen des Abkommens große Fortschritte zugesagt. Premierminister Li Keqiang sagte: 'Wir nehmen unsere Verantwortung ernst und werden unser Land auf eine kohlenstoffarme Wirtschaft umstellen.' Besonders betont wurde die Förderung von Elektrofahrzeugen und erneuerbaren Energien in China. Die Regierung plant, bis 2035 die Hälfte der nationalen Energie aus erneuerbaren Quellen zu beziehen."
+        "text": "Auch China hat im Rahmen des Abkommens große Fortschritte zugesagt. Premierminister Li Keqiang sagte: 'Wir nehmen unsere Verantwortung ernst und werden unser Land auf eine kohlenstoffarme Wirtschaft umstellen.' Die chinesische Regierung plant, bis 2035 mindestens 50 % des nationalen Energiebedarfs aus erneuerbaren Quellen zu decken. Besondere Schwerpunkte liegen auf dem massiven Ausbau von Wind- und Solarparks sowie der Förderung von Elektrofahrzeugen. Zudem sollen strengere Umweltauflagen für Industrieanlagen eingeführt werden, um die Luftverschmutzung in Großstädten zu reduzieren."
       },
       {
         "sectionTitle": "Internationale Reaktionen",
-        "text": "Die Reaktionen auf das Abkommen waren überwältigend positiv. Umweltorganisationen begrüßten die Vereinbarung als wichtigen Schritt im Kampf gegen den Klimawandel. 'Dies könnte der Wendepunkt sein, den wir benötigen, um die Erderwärmung unter 1,5 Grad zu halten', sagte der Vorsitzende von Greenpeace. Einige Skeptiker warnen jedoch, dass konkrete Maßnahmen und die Umsetzung der Vereinbarungen entscheidend sein werden."
+        "text": "Die Reaktionen auf das Abkommen waren überwiegend positiv. Umweltorganisationen begrüßten die Vereinbarung als wichtigen Schritt im Kampf gegen den Klimawandel. 'Dies könnte der Wendepunkt sein, den wir benötigen, um die Erderwärmung unter 1,5 Grad zu halten', sagte der Vorsitzende von Greenpeace. Die Europäische Union lobte das Abkommen als bedeutenden Fortschritt und forderte weitere multilaterale Klimaschutzmaßnahmen. Einige Kritiker äußerten jedoch Zweifel an der Umsetzung der Vereinbarungen und warnten vor möglichen politischen Rückschlägen."
       },
       {
-        "sectionTitle": "Fazit: Ein neuer Hoffnungsschimmer?",
-        "text": "Das Klimaabkommen zwischen den USA und China wird als bedeutender Fortschritt im globalen Klimaschutz angesehen. Doch die Umsetzung der Ziele bleibt eine Herausforderung. Wenn beide Länder ihre Verpflichtungen einhalten können, könnte dies zu einem grundlegenden Wandel in der weltweiten Klimapolitik führen. Die internationale Gemeinschaft blickt gespannt auf die nächsten Schritte und hofft auf eine nachhaltige Zukunft."
+        "sectionTitle": "Herausforderungen bei der Umsetzung",
+        "text": "Trotz der ambitionierten Pläne bleiben Herausforderungen bestehen. Die USA müssen ihre fossile Energieproduktion erheblich zurückfahren, was auf Widerstand aus der Industrie stoßen könnte. In China stellt der hohe Energiebedarf einer wachsenden Wirtschaft eine große Herausforderung dar. Zudem bleibt abzuwarten, wie konsequent beide Länder ihre Maßnahmen umsetzen werden. Experten betonen, dass regelmäßige Überprüfungen der Fortschritte entscheidend sind, um sicherzustellen, dass die Ziele tatsächlich erreicht werden."
+      },
+      {
+        "sectionTitle": "Ein neuer Hoffnungsschimmer?",
+        "text": "Das Klimaabkommen zwischen den USA und China wird als bedeutender Fortschritt im globalen Klimaschutz angesehen. Wenn beide Länder ihre Verpflichtungen einhalten können, könnte dies zu einem grundlegenden Wandel in der weltweiten Klimapolitik führen. Die internationale Gemeinschaft blickt gespannt auf die nächsten Schritte und hofft, dass dieses Abkommen nicht nur eine symbolische Vereinbarung bleibt, sondern tatsächlich einen nachhaltigen Wandel einleitet."
       }
     ]
   },
   {
     "id": 5,
-    "title": "Digitalisierung in der Bildung – Die Schulen der Zukunft",
+    "title": "Länder einigen sich auf Digitalisierung der Schulen",
     "url": "digitalisierungbildung",
     "date": "Frankfurt, 15. März 2025",
-    "imageSrc": "/assets/Bilder/digitalisierung_schule.jpg",
+    "imageSrc": "/assets/Bilder/itSchule.jpg", 
+    "timeOfCreation": "2025-02-22 9:59:33",
     "content": [
       {
         "sectionTitle": "Die digitale Revolution im Klassenzimmer",
-        "text": "Die Digitalisierung hat auch vor den Schulen nicht Halt gemacht. In Deutschland werden immer mehr Schulen mit modernen digitalen Werkzeugen ausgestattet, um den Unterricht zu revolutionieren. Tablets, interaktive Whiteboards und Online-Lernplattformen gehören mittlerweile zur Standardausstattung vieler Schulen. Experten betonen, dass der Unterricht dadurch nicht nur effektiver, sondern auch individueller gestaltet werden kann."
+        "text": "Die Digitalisierung hat auch vor den Schulen nicht Halt gemacht. In Deutschland werden immer mehr Schulen mit modernen digitalen Werkzeugen ausgestattet, um den Unterricht zu revolutionieren. Tablets, interaktive Whiteboards und Online-Lernplattformen gehören mittlerweile zur Standardausstattung vieler Schulen. Experten betonen, dass der Unterricht dadurch nicht nur effektiver, sondern auch individueller gestaltet werden kann. Schüler haben so die Möglichkeit, Lerninhalte in ihrem eigenen Tempo zu erarbeiten, während Lehrkräfte ihren Unterricht flexibler und ansprechender gestalten können. Gleichzeitig entstehen durch digitale Medien neue Möglichkeiten der Zusammenarbeit zwischen Schülern und Lehrern, beispielsweise durch Online-Projektarbeiten oder digitale Hausaufgabenverwaltung."
       },
       {
         "sectionTitle": "Vorteile für Schüler und Lehrer",
-        "text": "Für Schüler bieten digitale Lernmethoden zahlreiche Vorteile. Sie können in ihrem eigenen Tempo lernen, auf eine Vielzahl von Materialien zugreifen und durch interaktive Inhalte ein besseres Verständnis entwickeln. Lehrer wiederum können durch digitale Tools den Lernfortschritt ihrer Schüler genauer verfolgen und den Unterricht besser an die Bedürfnisse der einzelnen Schüler anpassen."
+        "text": "Für Schüler bieten digitale Lernmethoden zahlreiche Vorteile. Sie können in ihrem eigenen Tempo lernen, auf eine Vielzahl von Materialien zugreifen und durch interaktive Inhalte ein besseres Verständnis entwickeln. Besonders in Fächern wie Mathematik und Naturwissenschaften haben sich digitale Lernprogramme als äußerst effektiv erwiesen, da sie komplizierte Konzepte durch Visualisierungen und Simulationen verständlicher machen. Auch das Lernen mit Gamification-Ansätzen wird immer populärer: Durch Belohnungssysteme, Quizze und Lernspiele wird die Motivation der Schüler gesteigert. \n\nLehrer profitieren ebenfalls von der Digitalisierung. Mithilfe moderner Software können sie den Lernfortschritt ihrer Schüler genauer verfolgen und gezielt auf individuelle Schwächen eingehen. Digitale Tools ermöglichen zudem eine effizientere Unterrichtsvorbereitung und erleichtern die Organisation von Unterrichtsmaterialien. Besonders hilfreich sind KI-gestützte Assistenzsysteme, die Lehrkräften personalisierte Empfehlungen für den Unterricht geben können."
       },
       {
         "sectionTitle": "Herausforderungen der Digitalisierung",
-        "text": "Doch die Digitalisierung in der Bildung bringt auch Herausforderungen mit sich. Eine der größten Hürden ist die ungleiche Verteilung von digitalen Ressourcen. In vielen ländlichen Gebieten fehlt es an Internetanschlüssen und modernen Geräten, was den Zugang zu digitalem Unterricht erschwert. Zudem ist die Ausbildung der Lehrkräfte im Umgang mit digitalen Tools noch nicht flächendeckend gegeben."
+        "text": "Doch die Digitalisierung in der Bildung bringt auch Herausforderungen mit sich. Eine der größten Hürden ist die ungleiche Verteilung von digitalen Ressourcen. In vielen ländlichen Gebieten fehlt es an leistungsfähigen Internetanschlüssen und modernen Geräten, was den Zugang zu digitalem Unterricht erschwert. Während einige Schulen bestens ausgestattet sind, haben andere kaum Zugang zu digitalen Lernmitteln. Diese digitale Kluft verstärkt bestehende soziale Ungleichheiten im Bildungssystem. \n\nEin weiteres Problem ist die Schulung der Lehrkräfte. Viele Lehrer sind nicht ausreichend im Umgang mit digitalen Tools geschult und fühlen sich unsicher bei der Anwendung neuer Technologien im Unterricht. Es fehlt an Fortbildungen, die den Lehrkräften praxisnahe Kenntnisse zur Integration digitaler Medien vermitteln. Auch Datenschutz und IT-Sicherheit sind wichtige Themen: Schulen müssen sicherstellen, dass personenbezogene Daten von Schülern geschützt werden und keine unbefugten Zugriffe auf digitale Plattformen erfolgen."
+      },
+      {
+        "sectionTitle": "Technologische Trends in der Bildung",
+        "text": "Die rasante Entwicklung neuer Technologien bietet vielversprechende Möglichkeiten für den Bildungssektor. Besonders der Einsatz von Virtual Reality (VR) und Augmented Reality (AR) gewinnt zunehmend an Bedeutung. Mit VR können Schüler historische Ereignisse hautnah erleben, komplexe naturwissenschaftliche Prozesse besser verstehen oder sogar virtuelle Exkursionen in fremde Länder unternehmen. \n\nAuch Künstliche Intelligenz (KI) spielt eine immer größere Rolle. KI-gestützte Lernplattformen können personalisierte Lernpläne für Schüler erstellen und auf individuelle Stärken und Schwächen eingehen. Adaptive Lernsysteme passen sich dem Lerntempo der Schüler an und bieten gezielt zusätzliche Übungen oder Erklärungen an, wenn bestimmte Themen nicht verstanden wurden. Diese Technologien könnten langfristig dazu beitragen, Bildung für alle zugänglicher und effektiver zu gestalten."
+      },
+      {
+        "sectionTitle": "Politische Initiativen und Investitionen",
+        "text": "Um die Digitalisierung in den Schulen voranzutreiben, hat die Bundesregierung verschiedene Förderprogramme auf den Weg gebracht. Der sogenannte 'DigitalPakt Schule' stellt Milliardenbeträge für den Ausbau der digitalen Infrastruktur bereit. Neben der Anschaffung moderner Geräte soll das Geld auch für Fortbildungen von Lehrkräften und die Entwicklung digitaler Unterrichtskonzepte genutzt werden. \n\nEin weiteres Ziel der Regierung ist es, bis 2030 alle Schulen in Deutschland mit einem flächendeckenden Glasfaseranschluss zu versehen und Cloud-basierte Lernplattformen für den Unterricht zu etablieren. Dabei sollen Open-Source-Lösungen bevorzugt werden, um Abhängigkeiten von großen Tech-Konzernen zu vermeiden und Datenschutzprobleme zu minimieren."
       },
       {
         "sectionTitle": "Der Blick in die Zukunft",
-        "text": "Die Bildungsministerin betonte, dass die Digitalisierung in der Schule langfristig die Zukunft des Lernens sichern wird. 'Wir müssen sicherstellen, dass alle Schüler, unabhängig von ihrem sozialen Hintergrund, von den Vorteilen der digitalen Welt profitieren können.' In Zukunft wird erwartet, dass Schulen noch stärker auf Virtual Reality (VR) und Künstliche Intelligenz (KI) setzen, um den Unterricht noch interaktiver und spannender zu gestalten."
+        "text": "Die Bildungsministerin betonte, dass die Digitalisierung langfristig die Zukunft des Lernens sichern wird. 'Wir müssen sicherstellen, dass alle Schüler, unabhängig von ihrem sozialen Hintergrund, von den Vorteilen der digitalen Welt profitieren können.' In Zukunft wird erwartet, dass Schulen noch stärker auf Virtual Reality (VR) und Künstliche Intelligenz (KI) setzen, um den Unterricht noch interaktiver und spannender zu gestalten. Experten prognostizieren, dass klassische Lehrbücher zunehmend durch digitale Medien ersetzt werden und hybride Lernformen – eine Kombination aus Präsenz- und Online-Unterricht – immer mehr an Bedeutung gewinnen werden. \n\nEin weiterer Trend ist die Einführung von Blockchain-Technologie in der Bildung. Sie könnte dazu genutzt werden, Zeugnisse und Zertifikate fälschungssicher zu speichern und weltweit abrufbar zu machen, was vor allem für internationale Studierende und Arbeitnehmer von Vorteil wäre."
       },
       {
         "sectionTitle": "Fazit: Ein Weg in die Zukunft",
-        "text": "Die Digitalisierung bietet in der Bildung viele Chancen, aber auch Herausforderungen. Der Weg in die Zukunft wird davon abhängen, wie schnell und effektiv die technischen und sozialen Hürden überwunden werden. Die nächsten Jahre werden entscheidend dafür sein, ob sich das digitale Klassenzimmer flächendeckend durchsetzt und wie es den Unterricht der nächsten Generation verändert."
+        "text": "Die Digitalisierung bietet im Bildungsbereich zahlreiche Chancen, aber auch Herausforderungen. Während digitale Technologien den Unterricht moderner, interaktiver und effektiver machen können, müssen gleichzeitig Probleme wie die digitale Kluft, Datenschutz und die Ausbildung der Lehrkräfte gelöst werden. \n\nDie kommenden Jahre werden entscheidend dafür sein, wie schnell und nachhaltig die digitale Transformation in den Schulen umgesetzt wird. Investitionen in Technologie, Infrastruktur und Fortbildung sind essenziell, um eine gerechte und qualitativ hochwertige Bildung für alle zu gewährleisten. Wenn diese Herausforderungen bewältigt werden, könnte das digitale Klassenzimmer die Art und Weise, wie Schüler lernen, grundlegend verändern und den Bildungssektor revolutionieren."
       }
     ]
-  },
+  }
+  ,
   {
     "id": 6,
     "title": "Europäische Union plant neue Asylreform – Ein Schritt in die richtige Richtung?",
     "url": "asylreformeu",
     "date": "Brüssel, 28. Februar 2025",
-    "imageSrc": "/assets/Bilder/EUkonferenz.webp",
+    "imageSrc": "/assets/Bilder/EUkonferenz.webp", 
+    "timeOfCreation": "2025-02-20 19:25:01",
     "content": [
       {
         "sectionTitle": "Die geplante Asylreform",
@@ -181,30 +200,94 @@
   },
   {
     "id": 7,
-    "title": "Neue Mondmission der NASA – Das Rennen um den Weltraum geht weiter",
-    "url": "mondmissionnasa",
-    "date": "Houston, 5. April 2025",
-    "imageSrc": "/assets/Bilder/nasa_mondmission.jpg",
+    "title": "Lorem ipsum dolor sit amet – Curabitur ut sapien vitae nisl",
+    "url": "lorem-ipsum-dolor",
+    "date": "Roma, 25. Februar 2025",
+    "imageSrc": "/assets/Bilder/placeholder.svg",
+    "contentType": ["lorem", "ipsum"], 
+    "timeOfCreation": "2023-01-01 14:30:00",
     "content": [
       {
-        "sectionTitle": "Das nächste Ziel: Der Mond",
-        "text": "Die NASA hat offiziell ihre neue Mondmission bekannt gegeben, die als Teil des Artemis-Programms in den nächsten Jahren starten soll. Ziel ist es, bis 2030 wieder Menschen auf den Mond zu schicken und dort eine permanente Mondbasis aufzubauen. Dieser Schritt ist ein wichtiger Meilenstein für die NASA auf dem Weg zu einer Marsmission."
+        "sectionTitle": "Lorem ipsum dolor sit amet",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat eros vel velit laoreet, ut sodales augue gravida. Nam malesuada, turpis non scelerisque ultricies, ligula mi ultricies libero, euismod faucibus metus felis eget nunc."
       },
       {
-        "sectionTitle": "Technologische Herausforderungen",
-        "text": "Die Mondmission wird mit einer Vielzahl von technologischen Herausforderungen konfrontiert sein. Besonders die Entwicklung neuer Antriebssysteme und Raumfahrzeuge, die den langen Aufenthalt von Astronauten auf dem Mond ermöglichen, wird anspruchsvoll. Doch die NASA ist zuversichtlich, dass sie mit ihren Partnern aus der internationalen Raumfahrtgemeinschaft die notwendigen Technologien entwickeln kann."
+        "sectionTitle": "Curabitur ut sapien vitae nisl",
+        "text": "Curabitur ut sapien vitae nisl gravida feugiat. Integer egestas felis ac urna tempor, nec ultricies sapien ullamcorper. In hac habitasse platea dictumst. Nunc eu risus nec libero fringilla eleifend."
       },
       {
-        "sectionTitle": "Zusammenarbeit mit internationalen Partnern",
-        "text": "Die NASA wird bei der Mondmission eng mit internationalen Partnern zusammenarbeiten, darunter die europäische ESA, die japanische Raumfahrtbehörde JAXA und die kanadische Raumfahrtagentur CSA. Diese Partnerschaften werden es ermöglichen, die Mission kostengünstiger und effizienter durchzuführen und die Ressourcen weltweit zu bündeln."
+        "sectionTitle": "Quisque vitae odio quis nulla tempor",
+        "text": "Quisque vitae odio quis nulla tempor tempus. Sed volutpat auctor purus, nec vulputate mi scelerisque non. Aliquam erat volutpat. Integer nec ante id orci sagittis facilisis non nec ligula."
       },
       {
-        "sectionTitle": "Langfristige Ziele: Mars und darüber hinaus",
-        "text": "Die Mondmission ist nur der erste Schritt in der langfristigen Vision der NASA, den Mars zu erreichen. Das Artemis-Programm soll als Testfeld für Technologien dienen, die später für eine bemannte Marsmission genutzt werden können. NASA-Chef Bill Nelson erklärte: 'Der Mond ist unser Sprungbrett, aber unser Blick ist auf den Mars gerichtet.'"
+        "sectionTitle": "Fusce auctor dui at ligula suscipit",
+        "text": "Fusce auctor dui at ligula suscipit, a malesuada purus congue. Etiam bibendum, purus in tincidunt volutpat, eros ante dictum ligula, sit amet scelerisque lorem lorem vel eros."
       },
       {
-        "sectionTitle": "Fazit: Die Zukunft des Weltraums",
-        "text": "Die neue Mondmission der NASA stellt einen bedeutenden Schritt in der Erforschung des Weltraums dar. Die nächsten Jahre werden entscheidend sein, um die benötigten Technologien zu entwickeln und die Mission zu realisieren. Doch die Herausforderung, den Mond erneut zu betreten, könnte die Weichen für die Zukunft der menschlichen Raumfahrt stellen."
+        "sectionTitle": "Fazit: Nulla facilisi",
+        "text": "Nulla facilisi. Nunc eget purus at lorem hendrerit volutpat. Fusce eget est eu nisl viverra volutpat. Sed vel erat nec nisi fringilla pharetra non ac nisi."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Vivamus lacinia odio vitae vestibulum – Suspendisse ut orci",
+    "url": "vivamus-lacinia",
+    "date": "Milano, 26. Februar 2025",
+    "imageSrc": "/assets/Bilder/placeholder.svg",
+    "contentType": ["lacinia", "suspendisse"], 
+    "timeOfCreation": "2023-01-01 14:30:00",
+    "content": [
+      {
+        "sectionTitle": "Vivamus lacinia odio vitae vestibulum",
+        "text": "Vivamus lacinia odio vitae vestibulum. Etiam condimentum est sit amet dui scelerisque, nec feugiat sapien ultricies. Phasellus laoreet odio ut nisl cursus, a gravida libero tempor. Nam in urna ac nulla convallis placerat."
+      },
+      {
+        "sectionTitle": "Suspendisse ut orci hendrerit",
+        "text": "Suspendisse ut orci hendrerit laoreet. Sed nec risus eu nulla egestas dictum. Pellentesque a tempus eros. Mauris tempor ante id nunc mollis, at vestibulum eros laoreet. Sed vehicula ligula eget enim vestibulum interdum."
+      },
+      {
+        "sectionTitle": "Nunc efficitur purus ac quam tempus",
+        "text": "Nunc efficitur purus ac quam tempus, sit amet pharetra metus vehicula. Vivamus vel dolor metus. Cras at erat vel nisl sollicitudin eleifend in eget nunc. Aenean aliquam tortor eu magna viverra tincidunt."
+      },
+      {
+        "sectionTitle": "Fusce auctor sapien ac sapien",
+        "text": "Fusce auctor sapien ac sapien facilisis fermentum. Quisque placerat turpis non nisi scelerisque, nec efficitur nulla consectetur. Aliquam ante nulla, mollis vitae nunc a, gravida vulputate dolor."
+      },
+      {
+        "sectionTitle": "Fazit: Integer sagittis metus",
+        "text": "Integer sagittis metus euismod turpis lacinia tristique. Integer viverra orci non libero feugiat, sit amet elementum ante cursus. Mauris suscipit erat sit amet est venenatis, non tincidunt libero facilisis."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "title": "Pellentesque quis nisi sit amet – Integer euismod velit",
+    "url": "pellentesque-quius-nisi",
+    "date": "Venezia, 27. Februar 2025",
+    "imageSrc": "/assets/Bilder/placeholder.svg",
+    "contentType": ["pellentesque", "euismod"], 
+    "timeOfCreation": "2023-01-01 14:30:00",
+    "content": [
+      {
+        "sectionTitle": "Pellentesque quis nisi sit amet",
+        "text": "Pellentesque quis nisi sit amet velit elementum euismod. Integer pharetra, odio non consectetur posuere, erat velit euismod metus, a aliquam ipsum libero at dui. Cras convallis, ante nec gravida cursus, felis odio aliquet arcu, eget fringilla eros nunc et turpis."
+      },
+      {
+        "sectionTitle": "Integer euismod velit sollicitudin",
+        "text": "Integer euismod velit sollicitudin, malesuada felis ac, ultricies libero. Sed vitae volutpat metus, a elementum lorem. Etiam iaculis magna vitae justo auctor, et pharetra magna malesuada."
+      },
+      {
+        "sectionTitle": "Nullam id orci nec lorem",
+        "text": "Nullam id orci nec lorem placerat fermentum. Morbi id ante ac nunc pretium facilisis. Fusce ornare leo nec urna dignissim, a tincidunt leo fermentum. Suspendisse non augue in nisl scelerisque posuere."
+      },
+      {
+        "sectionTitle": "Aliquam erat volutpat",
+        "text": "Aliquam erat volutpat. Sed tristique viverra lectus ac pretium. Integer in nunc vel nulla tempus faucibus. Nunc mollis dui in arcu porttitor condimentum. Nulla id purus ut felis sodales facilisis."
+      },
+      {
+        "sectionTitle": "Fazit: Phasellus tempus purus",
+        "text": "Phasellus tempus purus euismod, congue orci eget, aliquam nulla. Curabitur gravida, ante non aliquam varius, lacus leo lobortis arcu, vel bibendum nisi velit eu nisi. Etiam cursus, ipsum a interdum facilisis, augue metus viverra velit."
       }
     ]
   }
