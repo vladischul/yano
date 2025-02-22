@@ -11,7 +11,8 @@ const article = ref(null);
 const articleUrl = '/article.json'; // Oder die URL, wenn von einem Server geladen
 
 const route = useRoute();
-const articleID = route.params.id;
+console.log('Received URL param:', route.params.linkUrl);
+const articleID = route.params.linkUrl;
 console.log(articleID);
 
 // Lade die JSON-Datei, wenn die Komponente gemountet wird
@@ -19,7 +20,7 @@ onMounted(async () => {
   try {
     const response = await axios.get(articleUrl);  // Holt die JSON-Datei
     //console.log(response.data);
-    article.value = response.data.find(a => a.id == articleID) || {};  // Speichert die geladenen Daten in der reaktiven Variable
+    article.value = response.data.find(a => a.linkUrl == articleID) || {};  // Speichert die geladenen Daten in der reaktiven Variable
     console.log(article.value)
   } catch (error) {
     console.error("Fehler beim Laden der JSON-Datei:", error);

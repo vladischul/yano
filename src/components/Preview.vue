@@ -1,5 +1,5 @@
 <script setup>
-import { defineProps, ref } from 'vue';
+import { ref } from 'vue';
 import { useRouter } from 'vue-router';
 import { formatDistanceToNow } from 'date-fns';
 import { de } from 'date-fns/locale'

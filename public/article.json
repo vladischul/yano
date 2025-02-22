@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "title": "AfD überrascht mit 26% in der Bundestagswahl – Ein unerwarteter Erfolg",
-    "url": "afdueberrascht",
+    "title": "AfD überrascht mit 26% in der Bundestagswahl",
+    "linkUrl": "afdueberrascht",
     "date": "Berlin, 20. Februar 2025",
     "imageSrc": "/assets/Bilder/afdSiegtBeiWahl.webp",
     "contentType": ["innenpolitik", "politik"], 
@@ -32,8 +32,8 @@
   },
   {
     "id": 2,
-    "title": "Trump bietet Lösung für den Ukraine-Konflikt an – Schuldig spricht er auch die Ukraine",
-    "url": "trumpsloesung",
+    "title": "Trump bietet Lösung für den Ukraine-Konflikt an",
+    "linkUrl": "trumpsloesung",
     "date": "Washington D.C., 1. März 2025",
     "imageSrc": "/assets/Bilder/trump01.jpg",
     "contentType": ["aussenpolitik", "politik"],  
@@ -67,8 +67,8 @@
   },
   {
     "id": 3,
-    "title": "Künstliche Intelligenz revolutioniert den Arbeitsmarkt – Chancen und Risiken",
-    "url": "kiarbeitsmarkt",
+    "title": "Künstliche Intelligenz revolutioniert den deutschen Arbeitsmarkt",
+    "linkUrl": "kiarbeitsmarkt",
     "date": "Berlin, 22. Februar 2025",
     "imageSrc": "/assets/Bilder/KI.webp", 
     "timeOfCreation": "2025-02-22 10:12:33",
@@ -97,8 +97,8 @@
   },
   {
     "id": 4,
-    "title": "Neue Klimaabkommen zwischen den USA und China – Hoffnung auf globalen Durchbruch",
-    "url": "klimaabkommen",
+    "title": "Neues Klimaabkommen zwischen den USA und China",
+    "linkUrl": "klimaabkommen",
     "date": "Washington DC, 10. März 2025",
     "imageSrc": "/assets/Bilder/xi.webp", 
     "timeOfCreation": "2025-02-21 13:12:05",
@@ -132,7 +132,7 @@
   {
     "id": 5,
     "title": "Länder einigen sich auf Digitalisierung der Schulen",
-    "url": "digitalisierungbildung",
+    "linkUrl": "digitalisierungbildung",
     "date": "Frankfurt, 15. März 2025",
     "imageSrc": "/assets/Bilder/itSchule.jpg", 
     "timeOfCreation": "2025-02-22 9:59:33",
@@ -171,7 +171,7 @@
   {
     "id": 6,
     "title": "Europäische Union plant neue Asylreform – Ein Schritt in die richtige Richtung?",
-    "url": "asylreformeu",
+    "linkUrl": "asylreformeu",
     "date": "Brüssel, 28. Februar 2025",
     "imageSrc": "/assets/Bilder/EUkonferenz.webp", 
     "timeOfCreation": "2025-02-20 19:25:01",
@@ -201,7 +201,7 @@
   {
     "id": 7,
     "title": "Lorem ipsum dolor sit amet – Curabitur ut sapien vitae nisl",
-    "url": "lorem-ipsum-dolor",
+    "linkUrl": "lorem-ipsum-dolor",
     "date": "Roma, 25. Februar 2025",
     "imageSrc": "/assets/Bilder/placeholder.svg",
     "contentType": ["lorem", "ipsum"], 
@@ -232,7 +232,7 @@
   {
     "id": 8,
     "title": "Vivamus lacinia odio vitae vestibulum – Suspendisse ut orci",
-    "url": "vivamus-lacinia",
+    "linkUrl": "vivamus-lacinia",
     "date": "Milano, 26. Februar 2025",
     "imageSrc": "/assets/Bilder/placeholder.svg",
     "contentType": ["lacinia", "suspendisse"], 
@@ -263,7 +263,7 @@
   {
     "id": 9,
     "title": "Pellentesque quis nisi sit amet – Integer euismod velit",
-    "url": "pellentesque-quius-nisi",
+    "linkUrl": "pellentesque-quius-nisi",
     "date": "Venezia, 27. Februar 2025",
     "imageSrc": "/assets/Bilder/placeholder.svg",
     "contentType": ["pellentesque", "euismod"], 

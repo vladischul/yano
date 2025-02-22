@@ -42,7 +42,7 @@ const title = "Hauptseite";
             :imageSrc="article.imageSrc || 'Kein Bild verfügbar'"
             :altText="article.title || 'Kein Titel verfügbar'"
             :linkText="article.title || 'Kein Titel verfügbar'"
-            :linkUrl="`/article/${article.id}`"
+            :linkUrl="`/article/${article.linkUrl}`"
             :timeOfCreation="article.timeOfCreation"
           />
         </div>
