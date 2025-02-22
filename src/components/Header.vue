@@ -1,12 +1,6 @@
 <script setup>
 import { useRoute, useRouter } from 'vue-router';
-
-defineProps({
-  title: {
-    type: String,
-    required: true
-  },
-});
+import Login from './Login.vue';
 
 const router = useRouter();
 const route = useRoute();
@@ -17,7 +11,7 @@ const goToMain = () => {
 </script>
 
 <template>
-  <nav class="navbar bg-light">
+  <nav class="navbar bg-light sticky-top">
     <div class="container-fluid d-flex justify-content-between align-items-center">
       <button @click="goToMain" class="btn btn-secondary">
         YANO
@@ -25,13 +19,10 @@ const goToMain = () => {
 
       <div class="navbar-brand mx-auto text-center title-break">
         <h1 class="h1 text-truncate" style="max-width: 100%;">
-          {{ route.name === "Main" ? "Yet Another News Outlet" : title }}
+            Yet Another News Outlet
         </h1>
       </div>
-
-      <button @click="goToLogin" class="btn btn-secondary">
-        Login
-      </button>
+      <Login></Login>
     </div>
   </nav>
 </template>

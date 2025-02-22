@@ -3,6 +3,7 @@ import { ref, onMounted } from 'vue';
 import axios from 'axios';
 import Header from './Header.vue';
 import Preview from './Preview.vue';
+import Sidebar from './Sidebar.vue';
 
 // Reaktive Variable für die Artikel
 const articles = ref([]);
@@ -18,37 +19,40 @@ onMounted(async () => {
   }
 });
 
-const title = "Hauptseite";
+const topics = [
+  "innenpolitik",
+  "aussenpolitik",
+  "wissenschaft"
+]
 
 </script>
 
 
 <template>
-  <Header :title="title"></Header>
+  <Header></Header>
+
 
   <!-- Artikelvorschau -->
-  <div class="container-fluid" v-if="articles.length > 0">
-    <!-- Left Advertisement Column (col-2) -->
+  <div class="container-fluid" v-if="articles.length > 0" style="background-color: #f8f9fa">
     <div class="row">
       <div class="col-2">
-        <div class="advertisement">
-          <p>Left Advertisement</p>
-        </div>
+        <Sidebar></Sidebar>
       </div>
     <div class="col-8">
       <div class="row">
-        <div v-for="article in articles" :key="article.id" class="col-4 align-items-center">
+        <div v-for="article in articles" :key="article.id" class="col-4 align-items-center mb-3">
           <Preview
             :imageSrc="article.imageSrc || 'Kein Bild verfügbar'"
             :altText="article.title || 'Kein Titel verfügbar'"
             :linkText="article.title || 'Kein Titel verfügbar'"
+            :contentText="article.content[1].text"
             :linkUrl="`/article/${article.linkUrl}`"
             :timeOfCreation="article.timeOfCreation"
+            class="card h-100"
           />
         </div>
       </div>
     </div>
-    <!-- Left Advertisement Column (col-2) -->
     <div class="col-2">
         <div class="advertisement">
           <p>Right Advertisement</p>
@@ -60,13 +64,4 @@ const title = "Hauptseite";
 </template>
 
 <style scoped>
-/* Optional: Styling für das Bild */
-.article-thumbnail {
-  border-radius: 8px;
-  transition: transform 0.3s ease-in-out;
-}
-
-.article-thumbnail:hover {
-  transform: scale(1.05);
-}
 </style>

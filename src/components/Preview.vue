@@ -4,7 +4,6 @@ import { useRouter } from 'vue-router';
 import { formatDistanceToNow } from 'date-fns';
 import { de } from 'date-fns/locale'
 
-// Definiere die Props für das Bild, den Text und den Link
 const props = defineProps({
   imageSrc: {
     type: String,
@@ -14,6 +13,9 @@ const props = defineProps({
     type: String
   },
   linkText: {
+    type: String
+  },
+  contentText: {
     type: String
   },
   linkUrl: {
@@ -28,14 +30,12 @@ const router = useRouter();
 const isHovered = ref(false);
 
 const navigate = () => {
-  // Navigiere zu der URL, die in linkUrl übergeben wurde
   router.push(props.linkUrl); 
 };
 
 const lastUpdate = () => {
-  return formatDistanceToNow(new Date(props.timeOfCreation), {addSuffix: true, locale: de});
+  return formatDistanceToNow(new Date(props.timeOfCreation), { addSuffix: true, locale: de });
 }
-
 </script>
 
 <template>
@@ -47,20 +47,38 @@ const lastUpdate = () => {
       @mouseleave="isHovered = false"
       style="cursor: pointer; overflow: hidden;"
     >
-      <!-- Textbereich -->
-      <div class="card-body d-flex flex-column flex-grow-1">
+      <div class="card-body d-flex flex-column flex-grow-1" :style="{ marginBottom: '-0.5rem' }">
         <p class="card-title text-center text-break flex-grow-1">
           {{ props.linkText }}
         </p>
-        <p class="card-text text-center"><small class="text-muted">Zuletzt bearbeitet {{ lastUpdate() }}</small></p>
+        <div :style="{ height: '4rem', marginBottom: '-1.5rem' }">
+          <p 
+            class="card-text text-center" 
+            :style="{ 
+              marginTop: '-1.5rem', 
+              fontSize: '0.666666rem', 
+              height: isHovered ? '4rem' : '2rem', 
+              overflow: 'hidden', 
+              textOverflow: 'ellipsis', 
+              display: '-webkit-box', 
+              WebkitLineClamp: isHovered ? 'unset' : '2', 
+              WebkitBoxOrient: 'vertical', 
+              transition: 'WebkitLineClamp 0.3s ease-in-out, height 0.3s ease-in-out'
+            }"
+          >
+            {{ props.contentText }}
+          </p>
+        </div>
+
+        <p class="card-text text-center" :style="{ fontSize: '0.7rem'}"><small class="text-muted">Zuletzt bearbeitet {{ lastUpdate() }}</small></p>
       </div>
-      <!-- Bild (expanding)-->
-      <div class="image-container" :style="{ height: isHovered ? 'auto' : '180px', overflow: 'hidden' }">
+
+      <div class="image-container" style="height: 180px; overflow: hidden;">
         <img 
           :src="props.imageSrc" 
           :alt="props.altText" 
           class="card-img-top img-fluid" 
-          :style="{ transform: isHovered ? 'scale(1.3)' : 'scale(1)', transition: 'transform 0.3s ease-in-out' }"
+          :style="{ transform: isHovered ? 'scale(1.2)' : 'scale(1)', transition: 'transform 0.3s ease-in-out', objectFit: 'cover', height: '100%', width: '100%' }"
         />
       </div>
     </div>

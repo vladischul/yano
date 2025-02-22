@@ -5,7 +5,7 @@
     "linkUrl": "afdueberrascht",
     "date": "Berlin, 20. Februar 2025",
     "imageSrc": "/assets/Bilder/afdSiegtBeiWahl.webp",
-    "contentType": ["innenpolitik", "politik"], 
+    "contentType": "innenpolitik", 
     "timeOfCreation": "2025-02-22 8:12:33",
     "content": [
       {
@@ -36,7 +36,7 @@
     "linkUrl": "trumpsloesung",
     "date": "Washington D.C., 1. März 2025",
     "imageSrc": "/assets/Bilder/trump01.jpg",
-    "contentType": ["aussenpolitik", "politik"],  
+    "contentType": "aussenpolitik",  
     "timeOfCreation": "2025-02-20 16:15:45", 
     "content": [
       {
@@ -71,6 +71,7 @@
     "linkUrl": "kiarbeitsmarkt",
     "date": "Berlin, 22. Februar 2025",
     "imageSrc": "/assets/Bilder/KI.webp", 
+    "contentType": "wissenschaft",
     "timeOfCreation": "2025-02-22 10:12:33",
     "content": [
       {
@@ -100,7 +101,8 @@
     "title": "Neues Klimaabkommen zwischen den USA und China",
     "linkUrl": "klimaabkommen",
     "date": "Washington DC, 10. März 2025",
-    "imageSrc": "/assets/Bilder/xi.webp", 
+    "imageSrc": "/assets/Bilder/xi.webp",
+    "contentType": "aussenpolitik", 
     "timeOfCreation": "2025-02-21 13:12:05",
     "content": [
       {
@@ -135,6 +137,7 @@
     "linkUrl": "digitalisierungbildung",
     "date": "Frankfurt, 15. März 2025",
     "imageSrc": "/assets/Bilder/itSchule.jpg", 
+    "contentType": "wissenschaft",
     "timeOfCreation": "2025-02-22 9:59:33",
     "content": [
       {
@@ -174,6 +177,7 @@
     "linkUrl": "asylreformeu",
     "date": "Brüssel, 28. Februar 2025",
     "imageSrc": "/assets/Bilder/EUkonferenz.webp", 
+    "contentType":"aussenpolitik",
     "timeOfCreation": "2025-02-20 19:25:01",
     "content": [
       {
