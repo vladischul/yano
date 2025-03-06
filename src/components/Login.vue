@@ -12,14 +12,15 @@ onMounted(() => {
 
 <template>
   <!-- Login Button -->
-  <button class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#loginbutton" aria-controls="loginbutton">
-    Login
+  <button id="loginButton" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#loginbutton" aria-controls="loginbutton">
+  Login
   </button>
+
 
   <!-- Offcanvas (Right Side) -->
   <div class="offcanvas offcanvas-end" id="loginbutton" aria-labelledby="loginbuttonLabel">
     <div class="offcanvas-header">
-      <h5 class="offcanvas-title" id="loginbuttonLabel">Sign In</h5>
+      <h5 class="offcanvas-title" id="loginbuttonLabel">YANO+</h5>
       <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
@@ -46,10 +47,8 @@ onMounted(() => {
           <a href="#" class="text-decoration-none">Passwort vergessen?</a>
         </div>
 
-        <!-- Sign-In Button -->
         <button type="submit" class="btn btn-primary w-100">Einloggen</button>
 
-        <!-- Sign-Up Link -->
         <p class="mt-3 text-center">
           Noch kein YANO+? <a href="#" class="text-decoration-none">Registrieren</a>
         </p>
@@ -58,3 +57,27 @@ onMounted(() => {
     </div>
   </div>
 </template>
+<style scoped>
+.btn-yano {
+  background-color: transparent;
+  color: #0a8a34;
+  font-size: 48px;
+  font-weight: bold;
+  border: 3px solid #0a8a34;    
+  border-radius: 8px;            
+  cursor: pointer;              
+  transition: all 0.3s ease;     
+  line-height: 0.9;             
+}
+#loginButton{
+  background-color: transparent;
+  color: #0a8a34;
+  font-size: 150%;
+  font-weight: bold;
+  border: 3px solid #0a8a34;    
+  border-radius: 8px;            
+  cursor: pointer;              
+  transition: all 0.3s ease;     
+  line-height: 0.9; 
+}
+</style>
