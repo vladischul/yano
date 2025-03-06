@@ -1,10 +1,8 @@
 <script setup>
 import { useRoute, useRouter } from 'vue-router';
 import Login from './Login.vue';
-import yanoIcon from '../assets/yano-icon.svg';  // Import the SVG icon
 
 const router = useRouter();
-const route = useRoute();
 
 const goToMain = () => {
   router.push('/');
@@ -73,5 +71,7 @@ const goToMain = () => {
   border-color: #004085;          /* Even darker border on click */
   color: #004085;                 /* Darker text color on click */
 }
-
+* {
+  background-color: #f8f9fa;
+}
 </style>

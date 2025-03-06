@@ -208,7 +208,7 @@
     "linkUrl": "lorem-ipsum-dolor",
     "date": "Roma, 25. Februar 2025",
     "imageSrc": "/assets/Bilder/placeholder.svg",
-    "contentType": "salt", 
+    "contentType": ["lorem", "ipsum"], 
     "timeOfCreation": "2023-01-01 14:30:00",
     "content": [
       {
@@ -239,7 +239,7 @@
     "linkUrl": "vivamus-lacinia",
     "date": "Milano, 26. Februar 2025",
     "imageSrc": "/assets/Bilder/placeholder.svg",
-    "contentType": "pepper", 
+    "contentType": ["lacinia", "suspendisse"], 
     "timeOfCreation": "2023-01-01 14:30:00",
     "content": [
       {
@@ -270,7 +270,7 @@
     "linkUrl": "pellentesque-quius-nisi",
     "date": "Venezia, 27. Februar 2025",
     "imageSrc": "/assets/Bilder/placeholder.svg",
-    "contentType": "salt", 
+    "contentType": ["pellentesque", "euismod"], 
     "timeOfCreation": "2023-01-01 14:30:00",
     "content": [
       {
@@ -292,44 +292,6 @@
       {
         "sectionTitle": "Fazit: Phasellus tempus purus",
         "text": "Phasellus tempus purus euismod, congue orci eget, aliquam nulla. Curabitur gravida, ante non aliquam varius, lacus leo lobortis arcu, vel bibendum nisi velit eu nisi. Etiam cursus, ipsum a interdum facilisis, augue metus viverra velit."
-      }
-    ]
-  },
-  {
-    "id": 10,
-    "title": "Neue Sicherheitsstrategie: Deutschland setzt auf nationale Interessen",
-    "linkUrl": "sicherheitsstrategie2025",
-    "date": "Berlin, 5. März 2025",
-    "imageSrc": "/assets/Bilder/deutscheSicherheit.jpg",
-    "contentType": "innenpolitik",
-    "timeOfCreation": "2025-03-05 14:45:10",
-    "content": [
-      {
-        "sectionTitle": "Mehr Eigenständigkeit in der Sicherheitspolitik",
-        "text": "Die deutsche Regierung hat eine neue Sicherheitsstrategie vorgestellt, die verstärkt auf nationale Interessen setzt. Bundeskanzler Friedrich Merz betonte, dass Deutschland seine Abhängigkeit von internationalen Sicherheitsbündnissen reduzieren müsse, um besser auf zukünftige Herausforderungen reagieren zu können. "
-      },
-      {
-        "sectionTitle": "Weniger Einfluss der EU und NATO?",
-        "text": "Besonders brisant ist der Vorschlag, dass Deutschland in sicherheitspolitischen Fragen unabhängiger von der EU und der NATO agieren soll. Kritiker warnen vor einer Abkehr von der transatlantischen Partnerschaft, während Befürworter den Schritt als notwendige Maßnahme zur Wahrung nationaler Interessen sehen."
-      }
-    ]
-  },
-  {
-    "id": 11,
-    "title": "Migration im Fokus: EU-Staaten setzen auf restriktivere Maßnahmen",
-    "linkUrl": "eu-migrationspolitik2025",
-    "date": "Brüssel, 7. März 2025",
-    "imageSrc": "/assets/Bilder/migrationEU.jpg",
-    "contentType": "aussenpolitik",
-    "timeOfCreation": "2025-03-07 09:30:00",
-    "content": [
-      {
-        "sectionTitle": "Neue Regelungen für Asylbewerber",
-        "text": "Mehrere EU-Staaten haben sich auf eine Verschärfung der Migrationspolitik geeinigt. Asylverfahren sollen beschleunigt und irreguläre Migration stärker eingedämmt werden. Besonders Frankreich und Italien drängen auf schnellere Abschiebungen."
-      },
-      {
-        "sectionTitle": "Stimmen aus der Politik",
-        "text": "Während konservative Parteien die Maßnahmen als notwendigen Schritt zur Wahrung der Stabilität begrüßen, kritisieren Menschenrechtsorganisationen die neuen Regelungen als zu restriktiv. In Deutschland äußerte sich Innenministerin Alice Weidel zustimmend zu den Entwicklungen und forderte ähnliche Maßnahmen für Deutschland."
       }
     ]
   }

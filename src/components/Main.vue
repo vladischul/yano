@@ -19,12 +19,6 @@ onMounted(async () => {
   }
 });
 
-const topics = [
-  "innenpolitik",
-  "aussenpolitik",
-  "wissenschaft"
-]
-
 </script>
 
 
@@ -38,24 +32,26 @@ const topics = [
       <div class="col-2 sidebar">
         <Sidebar></Sidebar>
       </div>
-    <div class="col-8">
-      <div class="row">
-        <div v-for="article in articles" :key="article.id" class="col-sm-12 col-md-6 col-lg-4 align-items-center mb-3">
-          <Preview
-            :imageSrc="article.imageSrc || 'Kein Bild verfügbar'"
-            :altText="article.title || 'Kein Titel verfügbar'"
-            :linkText="article.title || 'Kein Titel verfügbar'"
-            :contentText="article.content[1].text"
-            :linkUrl="`/article/${article.linkUrl}`"
-            :timeOfCreation="article.timeOfCreation"
-            class="card h-100"
-          />
+      <div class="col-8">
+        <div class="row">
+          <div v-for="article in articles" :key="article.id" class="col-sm-12 col-md-6 col-lg-4 align-items-center mb-3">
+            <Preview
+              :imageSrc="article.imageSrc || 'Kein Bild verfügbar'"
+              :altText="article.title || 'Kein Titel verfügbar'"
+              :linkText="article.title || 'Kein Titel verfügbar'"
+              :contentText="article.content[1].text"
+              :linkUrl="`/article/${article.linkUrl}`"
+              :timeOfCreation="article.timeOfCreation"
+              class="card h-100"
+            />
+          </div>
         </div>
       </div>
     </div>
-    </div>
   </div>
-
+  <div v-else class="loading text-center">
+    <p>Lade Artikel...</p>
+  </div>
 </template>
 
 <style scoped>

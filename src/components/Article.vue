@@ -1,5 +1,5 @@
 <script setup>
-import { ref, onMounted } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { useRoute } from 'vue-router';
 import axios from 'axios';  
 import Header from './Header.vue';
@@ -18,15 +18,26 @@ onMounted(async () => {
     console.error("Fehler beim Laden der JSON-Datei:", error);
   }
 });
+
+const currentContentType = computed(() => article.value?.contentType || '');
+
+const formatDate = (dateString) => {
+  const date = new Date(dateString);
+  return date.toLocaleDateString('de-DE', {
+    day: '2-digit',
+    month: '2-digit',
+    year: 'numeric'
+  });
+};
 </script>
 
 <template>
-  <div v-if="article" class="container-fluid p-0">
+  <div v-if="article" class="container-fluid p-0" style="background-color: #f8f9fa">
     <Header :title="article?.title || 'Lädt...'"></Header>
 
     <div class="row">
       <div class="col-md-2">
-        <Sidebar></Sidebar>
+        <Sidebar :currentContentType="currentContentType"></Sidebar>
       </div>
 
       <div class="col-md-10">
@@ -38,7 +49,7 @@ onMounted(async () => {
           />
         </div>
 
-        <p><em>{{ article.date }}</em></p>
+        <p><em>{{ formatDate(article.timeOfCreation) }}</em></p>
 
         <div v-for="(section, index) in article.content" :key="index" class="article-section mb-4">
           <h2>{{ section.sectionTitle }}</h2>
@@ -59,6 +70,7 @@ html, body {
   padding: 0;
   width: 100%;
   height: 100%;
+  background-color: #777;
 }
 
 .container-fluid {
