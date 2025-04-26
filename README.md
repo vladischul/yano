@@ -1,49 +1,70 @@
-# yano
+# Yano
 
-# Running the Backend Server
+**Yano** is a full-stack web application featuring a Vue.js frontend and a Node.js backend. The app serves and displays rich article content structured in a JSON file. Built with modern tools like Vite and Vue 3, Yano offers a clean, modular codebase for expanding into more complex content platforms.
 
-## Prerequisites
-- Node.js (https://nodejs.org/)
+## Features
 
-## Steps to Run the Server
+- **Backend**: Lightweight Node.js server serving content from a JSON file
+- **Frontend**: Vue 3 app powered by Vite for fast development and builds
+- Fetches and displays articles with metadata and rich content
+- Modular and scalable structure
 
-1. Open a terminal and navigate to the project directory:
-    ```sh
-    cd /d:/yano/backend
-    ```
+## Tech Stack
 
-2. Install the dependencies:
-    ```sh
-    npm install
-    ```
+- **Frontend**: Vue.js 3, Vite, JavaScript, CSS
+- **Backend**: Node.js (vanilla HTTP server)
+- **Data Format**: JSON
 
-3. Start the server:
-    ```sh
-    node server.js
-    ```
+## Getting Started
 
-4. The server should now be running on port 3002. You can access it by navigating to `http://localhost:3002` in your web browser.
+### Prerequisites
 
-## Viewing the Website
+- [Node.js](https://nodejs.org/) installed on your system
 
-1. Open a web browser.
-2. Navigate to `http://localhost:3002`.
-3. You should see your website.
+### Installation
 
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/vladischul/yano.git
+   cd yano
+   ```
 
-## article.json object structure
+2. **Start the backend server**
+   ```bash
+   cd backend
+   npm install
+   node server.js
+   ```
+
+   The server will run at: [http://localhost:3002](http://localhost:3002)
+
+3. **Run the frontend (Vite + Vue)**
+   ```bash
+   cd ../yano-frontend
+   npm install
+   npm run dev
+   ```
+
+   This runs the frontend at: [http://localhost:5173](http://localhost:5173)
+
+## JSON Structure (`article.json`)
+
+The backend serves data from `article.json`, which looks like:
+
+```json
 {
-    "id": Integer,
-    "title": String,
-    "linkUrl": String,
-    "date": date,
-    "imageSrc": fileDir,
-    "contentType":String, 
-    "timeOfCreation": date,
-    "content": [
-      {
-        "sectionTitle": String,
-        "text": String,
-      }
-    ]
+  "id": 1,
+  "title": "Example Article",
+  "linkUrl": "/articles/example-article",
+  "date": "2024-04-01",
+  "imageSrc": "/assets/images/example.jpg",
+  "contentType": "article",
+  "timeOfCreation": "2024-04-01T12:00:00Z",
+  "content": [
+    {
+      "sectionTitle": "Introduction",
+      "text": "This is the opening section of the article..."
+    }
+  ]
 }
+```
