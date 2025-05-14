@@ -47,3 +47,6 @@
       }
     ]
 }
+
+## Content color
+#0a8a34
