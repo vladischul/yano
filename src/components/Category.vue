@@ -32,7 +32,6 @@ watch(() => route.params.contentType, (newContentType) => {
 <template>
   <div class="category-container" style="background-color: #f8f9fa; min-height: 100vh;">
     <Header></Header>
-    <!-- Artikelvorschau -->
     <div class="container-fluid">
       <div class="row">
         <div class="col-2 sidebar">

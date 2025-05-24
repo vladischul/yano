@@ -16,7 +16,6 @@
 
 <script setup>
 import { ref } from 'vue';
-import { useRoute } from 'vue-router';
 
 const topics = ref([
   "Innenpolitik",
@@ -47,7 +46,7 @@ const props = defineProps({
   width: 250px;
   height: 100vh;
   position: fixed;
-  left: -250px; /* Verstecke Sidebar außerhalb des Bildschirms */
+  left: -250px;
   background-color: #f8f9fa;
   padding: 20px;
   border-right: 1px solid #ddd;
@@ -56,7 +55,7 @@ const props = defineProps({
 }
 
 .sidebar-show {
-  left: 0; /* Sidebar wird sichtbar, wenn die Klasse hinzugefügt wird */
+  left: 0;
 }
 
 .btn {
@@ -83,16 +82,16 @@ const props = defineProps({
 .arrow {
   font-size: 50px;
   color: #0a8a34;
-  line-height: 1; /* Ensure consistent line height */
-  vertical-align: middle; /* Align the arrow vertically */
+  line-height: 1;
+  vertical-align: middle;
 }
 
 .btn-open {
-  left: 0; /* Button auf der linken Seite */
+  left: 0;
 }
 
 .btn-close {
-  left: 200px; /* Button wird rechts von der Sidebar angezeigt, wenn sie geöffnet ist */
+  left: 200px;
 }
 
 .sidebar ul {

@@ -47,29 +47,27 @@ const goToMain = () => {
 }
 
 .btn-yano {
-  background-color: transparent;  /* Transparent background */
-  color: #0a8a34;                 /* Blue text color */
-  font-size: 48px;                /* Increased font size for taller letters */
-  font-weight: bold;              /* Bold text */
-  border: 3px solid #0a8a34;     /* Border around the text */
-  border-radius: 8px;             /* Slightly rounded corners on the border */
-  cursor: pointer;               /* Pointer cursor on hover */
-  transition: all 0.3s ease;      /* Smooth transition on hover */
-  line-height: 0.9;               /* Adjust line height to make letters taller */
+  background-color: transparent;  
+  color: #0a8a34;          
+  font-size: 48px;              
+  font-weight: bold;       
+  border: 3px solid #0a8a34;   
+  border-radius: 8px;      
+  cursor: pointer;             
+  transition: all 0.3s ease;     
+  line-height: 0.9;             
 }
 
-/* Hover effect for the "YANO" text */
 .btn-yano:hover {
-  background-color: #f0f8ff;      /* Light blue background on hover */
-  color: #0056b3;                 /* Darker blue text on hover */
-  border-color: #0056b3;          /* Darker border on hover */
+  background-color: #f0f8ff;
+  color: #0056b3;
+  border-color: #0056b3;
 }
 
-/* Active state (when the button is clicked) */
 .btn-yano:active {
-  transform: scale(0.98);         /* Slight shrink effect on click */
-  border-color: #004085;          /* Even darker border on click */
-  color: #004085;                 /* Darker text color on click */
+  transform: scale(0.98);
+  border-color: #004085;
+  color: #004085;
 }
 * {
   background-color: #f8f9fa;

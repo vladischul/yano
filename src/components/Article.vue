@@ -81,7 +81,7 @@ html, body {
 .image-container {
   height: 200px;
   overflow: hidden;
-  margin-left: -10px; /* Extend the image to the left */
+  margin-left: -10px;
 }
 
 .loading {

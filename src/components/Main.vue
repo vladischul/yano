@@ -4,8 +4,8 @@ import axios from 'axios';
 import Header from './Header.vue';
 import Preview from './Preview.vue';
 import Sidebar from './Sidebar.vue';
+import YanoPlusSidebar from './YanoPlusSidebar.vue';
 
-// Reaktive Variable für die Artikel
 const articles = ref([]);
 
 // Beispiel: Holen der Artikel von einer API oder einer JSON-Datei
@@ -46,6 +46,10 @@ onMounted(async () => {
             />
           </div>
         </div>
+      </div>
+      <div class="col-2 sidebar">
+        aaa
+        <YanoPlusSidebar></YanoPlusSidebar>
       </div>
     </div>
   </div>
