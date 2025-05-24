@@ -4,7 +4,7 @@
 
 ## Features
 
-- **Backend**: Lightweight Node.js server serving content from a JSON file
+- **Backend**: Lightweight Express.js server serving content from a JSON file
 - **Frontend**: Vue 3 app powered by Vite for fast development and builds
 - Fetches and displays articles with metadata and rich content
 - Modular and scalable structure
@@ -12,7 +12,7 @@
 ## Tech Stack
 
 - **Frontend**: Vue.js 3, Vite, JavaScript, CSS
-- **Backend**: Node.js (vanilla HTTP server)
+- **Backend**: Express.js
 - **Data Format**: JSON
 
 ## Getting Started
@@ -34,21 +34,11 @@
 
    ```bash
    cd backend
-   npm install
+   npm install express
    node server.js
    ```
 
    The server will run at: [http://localhost:3002](http://localhost:3002)
-
-3. **Run the frontend (Vite + Vue)**
-
-   ```bash
-   cd ../yano-frontend
-   npm install
-   npm run dev
-   ```
-
-   This runs the frontend at: [http://localhost:5173](http://localhost:5173)
 
 ## JSON Structure (`article.json`)
 
