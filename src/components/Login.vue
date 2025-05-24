@@ -11,13 +11,11 @@ onMounted(() => {
 </script>
 
 <template>
-  <!-- Login Button -->
   <button id="loginButton" class="btn btn-primary" data-bs-toggle="offcanvas" data-bs-target="#loginbutton" aria-controls="loginbutton">
   Login
   </button>
 
 
-  <!-- Offcanvas (Right Side) -->
   <div class="offcanvas offcanvas-end" id="loginbutton" aria-labelledby="loginbuttonLabel">
     <div class="offcanvas-header">
       <h5 class="offcanvas-title" id="loginbuttonLabel">YANO+</h5>
@@ -26,19 +24,16 @@ onMounted(() => {
     <div class="offcanvas-body">
       
       <form>
-        <!-- Email Feld -->
         <div class="mb-3">
           <label for="email" class="form-label">Email-Adresse/Benutzername</label>
           <input type="email" class="form-control" id="email" placeholder="deine Email" required>
         </div>
 
-        <!-- Passwort Feld -->
         <div class="mb-3">
           <label for="password" class="form-label">Passwort</label>
           <input type="password" class="form-control" id="password" placeholder="dein Passwort" required>
         </div>
 
-        <!-- Remember Me & Forgot Password -->
         <div class="d-flex justify-content-between align-items-center mb-3">
           <div class="form-check">
             <input type="checkbox" class="form-check-input" id="rememberMe">

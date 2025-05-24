@@ -8,11 +8,10 @@ import YanoPlusSidebar from './YanoPlusSidebar.vue';
 
 const articles = ref([]);
 
-// Beispiel: Holen der Artikel von einer API oder einer JSON-Datei
 onMounted(async () => {
   try {
-    const response = await axios.get('/article.json'); // Pfad zu deiner Artikel-JSON
-    articles.value = response.data; // Daten in der reaktiven Variable speichern
+    const response = await axios.get('/article.json');
+    articles.value = response.data;
     console.log(articles.value);
   } catch (error) {
     console.error('Fehler beim Laden der Artikel:', error);
